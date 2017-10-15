@@ -39,3 +39,4 @@ tags
 Thumbs.db
 .directory
 src/framework/graphics/dx/
+*.log

@@ -80312,3 +80312,82 @@ stack traceback:
 	[C]: ?
 	/client_entergame/entergame.lua:155: in function 'terminate'
 	/client_entergame/entergame.otmod:16:[@onUnload]:1: in main chunk
+== application started at Oct 15 2017 08:36:35
+OTClient 0.6.2 rev 0 (devel) built on Apr  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to load texture '/images/topbuttons/map_on': unable to open file '/images/topbuttons/map_on.png': The system cannot find the path specified.
+ERROR: Unable to load texture '/mods/catcherWindow/images/pb.png': unable to open file '/mods/catcherWindow/images/pb.png': The system cannot find the path specified.
+ERROR: Unable to load texture '/mods/catcherWindow/images/gb.png': unable to open file '/mods/catcherWindow/images/gb.png': The system cannot find the path specified.
+ERROR: Unable to load texture '/mods/catcherWindow/images/sb.png': unable to open file '/mods/catcherWindow/images/sb.png': The system cannot find the path specified.
+ERROR: Unable to load texture '/mods/catcherWindow/images/ub.png': unable to open file '/mods/catcherWindow/images/ub.png': The system cannot find the path specified.
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': The system cannot find the path specified.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Shop': LUA ERROR:
+/game_shop/Shop.lua:49: attempt to index upvalue 'optionsButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_shop/Shop.lua:49: in function 'terminate'
+	/game_shop/Shop.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'moduleManagerWindow' two times
+ERROR: Unable to unload module 'client_entergame': LUA ERROR:
+/client_entergame/entergame.lua:155: attempt to index upvalue 'enterGameButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/client_entergame/entergame.lua:155: in function 'terminate'
+	/client_entergame/entergame.otmod:16:[@onUnload]:1: in main chunk
