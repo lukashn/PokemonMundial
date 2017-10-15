@@ -1,0 +1,129 @@
+LocalesMainLabel < Label
+  font: sans-bold-16px
+
+LocalesButton < UIWidget
+  size: 96 96
+  image-size: 96 96
+  image-smooth: true
+  text-offset: 0 96
+  font: verdana-11px-antialised
+
+UIWindow
+  id: localesWindow
+  background-color: #000000
+  clipping: true
+  anchors.fill: parent
+
+  UIButton
+    image-source: /images/skin/1
+    size: 118 164
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 8
+    @onClick: modules.game_interface.getRightPanel() :setImageSource("/images/skins/9") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/2
+    size: 114 171
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 120
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/13") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/3
+    size: 115 161
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 6
+    margin-left: 240
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/16") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/4
+    size: 101 179
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -3
+    margin-left: 360
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/20") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/5
+    size: 117 191
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -20
+    margin-left: 480
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/14") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/6
+    size: 111 186
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -5
+    margin-left: 600
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/19") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/7
+    size: 114 184
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -7
+    margin-left: 720
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/10") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/8
+    size: 118 195
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -20
+    margin-left: 840
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/1") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/9
+    size: 107 191
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -20
+    margin-left: 960
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/2") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/10
+    size: 129 195
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -16
+    margin-left: 1080
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/3") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/11
+    size: 118 199
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: -20
+    margin-left: 1200
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/15") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/12
+    size: 107 194
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 200
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/17") modules.client_skins.hide()
+
+  UIButton
+    image-source: /images/skin/13
+    size: 118 212
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 183
+    margin-left: 120
+    @onClick: modules.game_interface.getRightPanel():setImageSource("/images/skins/21") modules.client_skins.hide()
