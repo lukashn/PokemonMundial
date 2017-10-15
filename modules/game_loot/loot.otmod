@@ -1,0 +1,7 @@
+Module
+  name: game_loot
+  description: Manage other modules
+  author: edubart
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ loot ]
