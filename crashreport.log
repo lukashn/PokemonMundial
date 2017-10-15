@@ -1,0 +1,24 @@
+== application crashed
+app name: OTClient
+app version: 0.6.2
+build compiler: gcc 4.7.2
+build date: Apr  8 2013
+build type: Release
+build revision: 0 (devel)
+crash date: Sep 03 2014 20:37:50
+exception: Access violation (0xc0000005)
+exception address: 0x6d2d9f47
+  backtrace:
+    0: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x2ef27) [0x6D2D9F47]
+    1: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x242e0) [0x6D2CF300]
+    2: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x24522) [0x6D2CF542]
+    3: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x3149e) [0x6D2DC4BE]
+    4: C:\Windows\system32\nvd3dum.dll [0x6D207E9C]
+    5: C:\Windows\system32\nvd3dum.dll [0x6D20568C]
+    6: C:\Windows\system32\nvd3dum.dll [0x6D21F8CA]
+    7: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x1da4a9) [0x6D4854C9]
+    8: C:\Windows\system32\nvd3dum.dll(QueryOglResource+0x1da5f0) [0x6D485610]
+    9: C:\Windows\syswow64\kernel32.dll(BaseThreadInitThunk+0x12) [0x7573336A]
+    10: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x63) [0x77449F72]
+    11: C:\Windows\SysWOW64\ntdll.dll(RtlInitializeExceptionChain+0x36) [0x77449F45]
+

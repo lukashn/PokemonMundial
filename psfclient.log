@@ -1,0 +1,1307 @@
+== application started at Dec 23 2014 22:07:28
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: failed to load UI from 'rcsound.otui': unable to open file '/rc_sound/rcsound.otui': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:108: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:108: in function 'init'
+	/rc_sound/rcsound.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+ERROR: audio buffer underrun
+at:
+	[C++]: StreamSoundSource::update
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:125: in function </rc_sound/rcsound.lua:124>
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function </rc_sound/rcsound.lua:129>
+	[C]: in function 'cancelLogin'
+	/game_interface/gameinterface.lua:218: in function 'forceExit'
+	/game_interface/gameinterface.lua:228: in function </game_interface/gameinterface.lua:228>
+Exiting application..
+ERROR: Unable to unload module 'HealthBar': LUA ERROR:
+/game_health/HealthBar.lua:60: attempt to index upvalue 'barPanel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_health/HealthBar.lua:60: in function 'terminate'
+	/game_health/HealthBar.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:26:10
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: Unable to load texture '/images/ui/pxg/topMenu_icons/fishing_icon': unable to open file '/images/ui/pxg/topMenu_icons/fishing_icon.png': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to load UI from 'rcsound.otui': unable to open file '/rc_sound/rcsound.otui': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:108: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:108: in function 'init'
+	/rc_sound/rcsound.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+ERROR: audio buffer underrun
+at:
+	[C++]: StreamSoundSource::update
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:125: in function </rc_sound/rcsound.lua:124>
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function </rc_sound/rcsound.lua:129>
+	[C]: in function 'cancelLogin'
+	/game_interface/gameinterface.lua:218: in function 'forceExit'
+	/game_interface/gameinterface.lua:228: in function </game_interface/gameinterface.lua:228>
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'HealthBar': LUA ERROR:
+/game_health/HealthBar.lua:60: attempt to index upvalue 'barPanel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_health/HealthBar.lua:60: in function 'terminate'
+	/game_health/HealthBar.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:119: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:28:22
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: Unable to load texture '/images/ui/pxg/topMenu_icons/fishing_icon': unable to open file '/images/ui/pxg/topMenu_icons/fishing_icon.png': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to load UI from 'rcsound.otui': unable to open file '/rc_sound/rcsound.otui': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:108: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:108: in function 'init'
+	/rc_sound/rcsound.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:125: in function </rc_sound/rcsound.lua:124>
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function </rc_sound/rcsound.lua:129>
+	[C]: in function 'cancelLogin'
+	/game_interface/gameinterface.lua:218: in function 'forceExit'
+	/game_interface/gameinterface.lua:228: in function </game_interface/gameinterface.lua:228>
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'HealthBar': LUA ERROR:
+/game_health/HealthBar.lua:60: attempt to index upvalue 'barPanel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_health/HealthBar.lua:60: in function 'terminate'
+	/game_health/HealthBar.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:119: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:30:38
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'client_skins' required by 'client'
+ERROR: Unable to find module 'game_loot' required by 'client'
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: /game_health/HealthBar.otui:87: [@onClose]:2: attempt to index field 'game_health' (a nil value)
+ERROR: Unable to load texture '/images/ui/pxg/topMenu_icons/fishing_icon': unable to open file '/images/ui/pxg/topMenu_icons/fishing_icon.png': O sistema não pode encontrar o caminho especificado.
+ERROR: failed to load UI from 'rcsound.otui': unable to open file '/rc_sound/rcsound.otui': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:108: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:108: in function 'init'
+	/rc_sound/rcsound.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:125: in function </rc_sound/rcsound.lua:124>
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: protected lua call failed: LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function </rc_sound/rcsound.lua:129>
+	[C]: in function 'cancelLogin'
+	/game_interface/gameinterface.lua:218: in function 'forceExit'
+	/game_interface/gameinterface.lua:228: in function </game_interface/gameinterface.lua:228>
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'HealthBar': LUA ERROR:
+/game_health/HealthBar.lua:60: attempt to index upvalue 'barPanel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_health/HealthBar.lua:60: in function 'terminate'
+	/game_health/HealthBar.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:205: attempt to index global 'soundWindow' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:205: in function 'setLabel'
+	/rc_sound/rcsound.lua:199: in function 'stopSound'
+	/rc_sound/rcsound.lua:130: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:119: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:33:57
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_healthinfo' required by 'game_interface'
+ERROR: Unable to find module 'game_inventory' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+== application started at Dec 23 2014 22:34:04
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_healthinfo' required by 'game_interface'
+ERROR: Unable to find module 'game_inventory' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+== application started at Dec 23 2014 22:34:10
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to find module 'game_healthinfo' required by 'game_interface'
+ERROR: Unable to find module 'game_inventory' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:34:39
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_healthinfo' required by 'game_interface'
+ERROR: Unable to find module 'game_inventory' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:36:52
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_healthinfo' required by 'game_interface'
+ERROR: Unable to find module 'game_inventory' required by 'game_interface'
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+Exiting application..
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:37:28
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+mana:     0    6
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:209: in function 'callback'
+	/client_topmenu/topmenu.lua:33: in function </client_topmenu/topmenu.lua:31>
+mana:     0    6
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:209: in function 'callback'
+	/client_topmenu/topmenu.lua:33: in function </client_topmenu/topmenu.lua:31>
+mana:     0    6
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:209: in function 'callback'
+	/client_topmenu/topmenu.lua:33: in function </client_topmenu/topmenu.lua:31>
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 23 2014 22:51:20
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+== application started at Dec 23 2014 22:55:54
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:209: in function 'callback'
+	/client_topmenu/topmenu.lua:33: in function </client_topmenu/topmenu.lua:31>
+mana:     0    6
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:209: in function 'callback'
+	/client_topmenu/topmenu.lua:33: in function </client_topmenu/topmenu.lua:31>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     1    6
+mana:     1    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     1    6
+RC Sounds: New sound area detected:
+  Position: {x=969, y=1069, z=13}
+  Music: music/pvp.ogg
+mana:     1    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     1    6
+mana:     1    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     6    6
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     1    6
+mana:     1    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     1    6
+mana:     1    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+== application started at Dec 23 2014 23:04:26
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: Unable to load texture 'moves_icon/Sketch 1_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 1_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 2_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 2_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 3_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 3_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 4_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 4_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 5_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 5_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 6_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 6_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 7_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 7_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 8_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 8_on.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to load texture 'moves_icon/Sketch 9_on.png': unable to open file '/game_pokemoves/moves_icon/Sketch 9_on.png': O sistema não pode encontrar o caminho especificado.
+RC Sounds: New sound area detected:
+  Position: {x=1025, y=1042, z=7}
+  Music: music/cidade 1.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+ERROR: lua function callback failed: LUA ERROR:
+C++ call failed: Unable to login into a world while already online or logging.
+stack traceback:
+	[C]: ?
+	[C]: in function 'loginWorld'
+	/client_entergame/characterlist.lua:30: in function 'tryLogin'
+	/client_entergame/characterlist.lua:24: in function </client_entergame/characterlist.lua:24>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+== application started at Dec 23 2014 23:22:42
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+== application started at Dec 23 2014 23:22:50
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     5    6
+mana:     5    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     5    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: Unable to load texture 'moves_icon/Air Vortex_on.png': unable to open file '/game_pokemoves/moves_icon/Air Vortex_on.png': O sistema não pode encontrar o caminho especificado.
+RC Sounds: New sound area detected:
+  Position: {x=1048, y=1029, z=7}
+  Music: music/cidade 1.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+RC Sounds: New sound area detected:
+  Position: {x=970, y=1069, z=13}
+  Music: music/pvp.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+mana:     6    6
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+RC Sounds: New sound area detected:
+  Position: {x=970, y=1069, z=13}
+  Music: music/pvp.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 24 2014 12:14:40
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     6    6
+mana:     6    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     6    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+RC Sounds: New sound area detected:
+  Position: {x=970, y=1069, z=13}
+  Music: music/pvp.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=970, y=1069, z=13}
+  Music: music/pvp.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+RC Sounds: New sound area detected:
+  Position: {x=970, y=1069, z=13}
+  Music: music/pvp.ogg
+RC Sounds: New sound area detected:
+  Left music area.
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     6    6
+mana:     6    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+WARNING: attempt to destroy widget 'CatcherWindow' two times
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
+== application started at Dec 24 2014 12:22:31
+PSFClient 0.6.2 rev 0 (devel) built on Jul  8 2013 for arch x86
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index global 'modules' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:36: in main chunk
+ERROR: Unable to load module 'game_guild': LUA ERROR:
+/game_guild/guild.lua:5: attempt to index field 'client_topmenu' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_guild/guild.lua:5: in function 'init'
+	/game_guild/guild.otmod:10:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:41: in main chunk
+ERROR: Unable to find module 'game_combatcontrols' required by 'game_interface'
+ERROR: /rc_sound/rcsound.lua:79: attempt to index global 'soundButton' (a nil value)
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: protected lua call failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function </game_healthinfo/healthinfo.lua:262>
+ERROR: caught a lua call to a bot protected game function, the call was cancelled
+stack traceback:
+	[C]: ?
+	[C]: in function 'talk'
+	/game_pokemoves/cdBar.lua:33: in function </game_pokemoves/cdBar.lua:32>
+mana:     0    6
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+mana:     0    6
+ERROR: lua function callback failed: LUA ERROR:
+/game_healthinfo/healthinfo.lua:263: attempt to index global 'capLabel' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_healthinfo/healthinfo.lua:263: in function 'onFreeCapacityChange'
+	/game_healthinfo/healthinfo.lua:175: in function 'refresh'
+	/game_healthinfo/healthinfo.lua:79: in function </game_healthinfo/healthinfo.lua:79>
+ERROR: container not found
+at:
+	[C++]: Game::processCloseContainer
+Exiting application..
+ERROR: Unable to unload module 'rc_sound': LUA ERROR:
+/rc_sound/rcsound.lua:107: attempt to index global 'soundButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:107: in function 'terminate'
+	/rc_sound/rcsound.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Choose new Pokemon': LUA ERROR:
+/game_iniciais/Pokes_Iniciais.lua:22: attempt to index global 'cdBarWin' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_iniciais/Pokes_Iniciais.lua:22: in function 'terminate'
+	/game_iniciais/Pokes_Iniciais.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Bar Poke': LUA ERROR:
+/game_extrapokebar/barpoke.lua:21: attempt to call global 'destroyIcons' (a nil value)
+stack traceback:
+	[C]: in function 'destroyIcons'
+	/game_extrapokebar/barpoke.lua:21: in function 'terminate'
+	/game_extrapokebar/barpoke.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'CatcherWindow': LUA ERROR:
+/rc_sound/rcsound.lua:191: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/rc_sound/rcsound.lua:191: in function 'setLabel'
+	/rc_sound/rcsound.lua:185: in function 'stopSound'
+	/rc_sound/rcsound.lua:116: in function 'onGameEnd'
+	/rc_sound/rcsound.lua:105: in function 'terminate'
+	/catcherWindow/catcherWindow.otmod:17:[@onUnload]:1: in main chunk
